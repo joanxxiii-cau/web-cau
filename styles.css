@@ -622,6 +622,6 @@ a:focus-visible { outline: 3px solid var(--red); outline-offset: 6px; }
 .news-page, .news-home { color: var(--ink); }
 
 /* Fotografia original de la Foca Prèvia */
-.foca-photo { transform: rotate(180deg); }
+.foca-photo, .news-feature-photo .foca-photo { transform: rotate(180deg); }
 .news-feature-photo:hover .foca-photo { transform: rotate(180deg) scale(1.025); }
 .news-list .news-feature-card + .news-feature-card { margin-top: 2.5rem; }
